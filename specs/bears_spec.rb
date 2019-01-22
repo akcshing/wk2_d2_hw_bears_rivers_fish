@@ -29,6 +29,6 @@ class BearsTest < MiniTest::Test
   end
 
   def test_roar
-    assert_equal("I'M A BEAR, ROAR!!!", @bear_1.roar())
+    assert_equal("I'M A GRIZZLY BEAR, ROAR!!!", @bear_1.roar())
   end
 end

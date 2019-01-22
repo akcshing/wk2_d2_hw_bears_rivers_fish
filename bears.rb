@@ -5,6 +5,7 @@ class Bears
     @name = name
     @type = type
     @food = food
+    @roar = roar
   end
 
 
@@ -19,6 +20,6 @@ class Bears
   end
 
   def roar
-
+    return "I'M A #{@type.upcase()} BEAR, ROAR!!!"
   end
 end
