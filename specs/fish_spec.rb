@@ -9,7 +9,9 @@ class FishTest < MiniTest::Test
     @fish_2 = Fish.new("Tuna")
   end
 
-
+  def test_get_fish_name
+    assert_equal("Salmon", @fish_1.name())
+  end
 
 
 
