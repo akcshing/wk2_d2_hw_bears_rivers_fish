@@ -17,6 +17,8 @@ class RiversTest < MiniTest::Test
     assert_equal("Amazon", @river_1.name())
   end
 
-
-
+  def test_get_fish_array
+    assert_equal([@fish_1, @fish_2], @river_1.fish())
+  end
+  
 end
