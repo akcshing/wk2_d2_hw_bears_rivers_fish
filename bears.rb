@@ -22,4 +22,8 @@ class Bears
   def roar
     return "I'M A #{@type.upcase()} BEAR, ROAR!!!"
   end
+
+  def food_count
+    return @food.count()
+  end
 end
