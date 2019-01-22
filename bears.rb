@@ -15,7 +15,7 @@ class Bears
 
     fished = river.fish.pop()
     @food << fished
-
+    
   end
 
 end
