@@ -20,5 +20,11 @@ class BearsTest < MiniTest::Test
 
   end
 
+  def test_bear_takes_fish_from_river
+    @bear_1.go_fish(@river_1)
+    assert_equal(@fish_2, @bear_1.food())
+      # next test is river should have lost said fish
+  end
+
 
 end

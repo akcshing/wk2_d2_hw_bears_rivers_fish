@@ -11,4 +11,6 @@ class Bears
 # A Bear should be able to take a Fish from the River and
 # add it to its collection of food
 
+
+
 end
