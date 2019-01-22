@@ -24,6 +24,8 @@ class BearsTest < MiniTest::Test
     @bear_1.go_fish(@river_1)
     assert_equal([@fish_2], @bear_1.food())
       # next test is river should have lost said fish
+    assert_equal(1, @river_1.fish.count())
+    assert_equal([@fish_1], @river_1.fish())
   end
 
 
