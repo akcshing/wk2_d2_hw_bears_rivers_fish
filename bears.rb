@@ -11,6 +11,11 @@ class Bears
 # A Bear should be able to take a Fish from the River and
 # add it to its collection of food
 
+  def go_fish(river)
 
+    fished = river.fish.pop()
+    @food << fished
+
+  end
 
 end
