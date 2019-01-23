@@ -14,8 +14,13 @@ class Bears
 
   def go_fish(river)
 
-    fished = river.fish.pop()
-    @food << fished
+    # if river != []
+      # fished = river.fish.pop()   # the bear shouldnt know that river.fish is an array. therefore wouldn't know to pop a fish
+      # @food << fished             # this is abstracting
+    # end
+
+    fish = river.get_fish()     # asks the river to retrun a fish
+    @food << fish if !fish.nil?
 
   end
 
